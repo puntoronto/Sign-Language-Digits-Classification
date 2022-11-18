@@ -1,1 +1,1 @@
-# Veri-S-n-fland-rma-dev
+# Veri Siniflandirma Odev
