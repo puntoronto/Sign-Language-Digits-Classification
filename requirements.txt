@@ -1,0 +1,10 @@
+streamlit
+tensorboard
+tensorboard-data
+tensorboard-plugin-wit
+tensorflow
+tensorflow-base
+tensorflow-estimator
+numpy
+pillow
+
