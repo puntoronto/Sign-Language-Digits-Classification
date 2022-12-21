@@ -7,4 +7,3 @@ tensorflow-base
 tensorflow-estimator
 numpy
 pillow
-
