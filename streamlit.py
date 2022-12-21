@@ -12,9 +12,9 @@ def show_explore_page():
     st.write('''There are 15000 photos in our dataset. It contains american sign language numbers from 0 to 9. We used 12000 photos for training and 3000 photos for testing. 
     We used 100x100 grayscale images for training. We used 4 convolutional layers and 4 max pooling layers for training. We used 3 dense layers for training. We used 0.5 dropout rate for training. 
     We used Adam optimizer for training. We used categorical crossentropy loss function for training. We used accuracy metric for training. We used 10 epochs for training. We used 32 batch size for training. We used 0.2 validation split for training.''')
-    img_path_dict = {'Examples from Dataset': 'https://github.com/yektaozan/Veri-Siniflandirma-Odev/blob/main/sample.png',
-                        'Classification Report': 'https://github.com/yektaozan/Veri-Siniflandirma-Odev/blob/main/sign_language_model_classification_report.png',
-                        'Confusion Matrix': 'https://github.com/yektaozan/Veri-Siniflandirma-Odev/blob/main/sign_language_model_confusion_matrix.png'}
+    img_path_dict = {'Examples from Dataset': 'sample.png',
+                        'Classification Report': 'sign_language_model_classification_report.png',
+                        'Confusion Matrix': 'sign_language_model_confusion_matrix.png'}
     
     for img_name, img_path in img_path_dict.items():
         st.write(img_name)
@@ -45,7 +45,7 @@ def prepare(img_path, model):
 # tahmin sayfasini hazirlama
 def show_predict_page():
     st.title('Prediction Page')
-    model_path = "https://github.com/yektaozan/Veri-Siniflandirma-Odev/blob/main/isaret_dili_model.h5"
+    model_path = "isaret_dili_model.h5"
     model = load_model(model_path)
     uploaded_file = st.file_uploader('Choose an image...', type=['jpg', 'png', 'jpeg'])
     if uploaded_file is not None:
