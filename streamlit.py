@@ -50,7 +50,7 @@ def show_predict_page():
     if uploaded_file is not None:
         img = PIL.Image.open(uploaded_file).resize((300, 300))
         st.image(img, caption='Uploaded Image.')
-        prediction = prepare(uploaded_file.name, model)
+        prediction = prepare(uploaded_file, model)
         st.write('Prediction: {}'.format(prediction))
         st.write('Done!')
 
