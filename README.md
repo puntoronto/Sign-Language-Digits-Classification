@@ -1,6 +1,6 @@
 ## samples from dataset
 
-<img src='sample.png' width='600' height='600'>
+<img src='sample.png' width='800' height='500'>
 
 app: https://signlanguagepredictor.streamlit.app
 
