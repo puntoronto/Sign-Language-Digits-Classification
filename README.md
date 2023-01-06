@@ -2,7 +2,7 @@
 <img src='sample.png' width='800' height='500'>
 
 ## confusion matrix
-<img src='sign_language_model_confusion_matrix.png' width='800' height='500'>
+<img src='sign_language_model_confusion_matrix.png' width='500' height='500'>
 
 app: https://signlanguagepredictor.streamlit.app
 
